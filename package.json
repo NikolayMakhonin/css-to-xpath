@@ -1,6 +1,6 @@
 {
 	"name": "@flemist/css-to-xpath",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Convert CSS selector to XPath",
 	"author": {
 		"name": "Nickolay Makhonin",
@@ -72,7 +72,6 @@
 		"@babel/preset-env": "^7.10.1",
 		"@babel/register": "^7.10.1",
 		"@babel/runtime-corejs3": "^7.10.1",
-		"@flemist/css-to-xpath": "0.0.1",
 		"@metahub/karma-rollup-preprocessor": "^6.0.0",
 		"@theintern/leadfoot": "^2.2.12",
 		"@typescript-eslint/eslint-plugin": "^3.0.2",
