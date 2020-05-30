@@ -1,3 +1,4 @@
+/* tslint:disable:no-identical-functions no-duplicate-string no-duplicated-branches */
 // CSS: http://www.stijit.com/html-css/30-css-selektorov-selectors
 // XPath: https://msdn.microsoft.com/ru-ru/library/ms256122(v=vs.120).aspx
 // convert: https://en.wikibooks.org/wiki/XPath/CSS_Equivalents
@@ -428,26 +429,26 @@ export function cssToXPath(css: string, ignoreCase: boolean = true, disableCache
 		// see: http://plasmasturm.org/log/444/
 		function readSeparator(): string {
 			let newIsStart: boolean = false
-			let result: string = null
+			let _result: string = null
 			while (index < exclusiveEndIndex) {
 				const ch = text[index]
 				if (ch === ' ') {
-
-				} else if (result === null) {
+					// empty
+				} else if (_result === null) {
 					if (ch === '>') {
-						result = isStart
+						_result = isStart
 							? './'
 							: '/'
 					} else if (ch === '+') {
-						result = isStart
+						_result = isStart
 							? './following-sibling::*[1]/self::'
 							: '/following-sibling::*[1]/self::'
 					} else if (ch === '~') {
-						result = isStart
+						_result = isStart
 							? './following-sibling::*/self::'
 							: '/following-sibling::*/self::'
 					} else if (ch === ',') {
-						result = '|'
+						_result = '|'
 						newIsStart = true
 					} else
 					{
@@ -463,7 +464,7 @@ export function cssToXPath(css: string, ignoreCase: boolean = true, disableCache
 
 			isStart = newIsStart
 
-			return result
+			return _result
 		}
 
 		function readWord(charFilter: (char: string) => boolean): string {
