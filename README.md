@@ -21,10 +21,10 @@ Convert CSS selector to XPath
 [npm-url]: https://npmjs.org/package/css-to-xpath
 [node-version-image]: https://img.shields.io/node/v/css-to-xpath.svg
 [node-version-url]: https://nodejs.org/en/download/
-[travis-image]: https://travis-ci.org/NikolayMakhonin/css-to-xpath.svg?branch=browser-helpers
-[travis-url]: https://travis-ci.org/NikolayMakhonin/css-to-xpath?branch=browser-helpers
-[coveralls-image]: https://coveralls.io/repos/github/NikolayMakhonin/css-to-xpath/badge.svg?branch=browser-helpers
-[coveralls-url]: https://coveralls.io/github/NikolayMakhonin/css-to-xpath?branch=browser-helpers
+[travis-image]: https://travis-ci.org/NikolayMakhonin/css-to-xpath.svg
+[travis-url]: https://travis-ci.org/NikolayMakhonin/css-to-xpath
+[coveralls-image]: https://coveralls.io/repos/github/NikolayMakhonin/css-to-xpath/badge.svg
+[coveralls-url]: https://coveralls.io/github/NikolayMakhonin/css-to-xpath
 [downloads-image]: https://img.shields.io/npm/dm/css-to-xpath.svg
 [downloads-url]: https://npmjs.org/package/css-to-xpath
 [npm-url]: https://npmjs.org/package/css-to-xpath
