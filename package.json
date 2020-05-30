@@ -1,21 +1,31 @@
 {
-	"name": "app-template",
+	"name": "css-to-xpath",
 	"version": "0.0.1",
-	"description": "App Template",
+	"description": "Convert CSS selector to XPath",
 	"author": {
-		"name": "App Template",
-		"url": "https://github.com/AppTemplate/"
+		"name": "Nickolay Makhonin",
+		"url": "https://github.com/NickolayMakhonin/"
 	},
-	"homepage": "https://github.com/AppTemplate/app-template/",
+	"homepage": "https://github.com/NickolayMakhonin/css-to-xpath/",
 	"bugs": {
-		"url": "https://github.com/AppTemplate/app-template/issues"
+		"url": "https://github.com/NickolayMakhonin/css-to-xpath/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@github.com:AppTemplate/app-template.git"
+		"url": "git+ssh://git@github.com:NickolayMakhonin/css-to-xpath.git"
 	},
 	"license": "CC0-1.0",
-	"keywords": [],
+	"keywords": [
+		"css",
+		"xpath",
+		"css-selector",
+		"selector",
+		"css2xpath",
+		"csstoxpath",
+		"css to xpath",
+		"css-to-xpath",
+		"convert"
+	],
 	"files": [
 		"dist/**"
 	],
