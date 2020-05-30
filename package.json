@@ -1,5 +1,5 @@
 {
-	"name": "css-to-xpath",
+	"name": "@flemist/css-to-xpath",
 	"version": "0.0.1",
 	"description": "Convert CSS selector to XPath",
 	"author": {
