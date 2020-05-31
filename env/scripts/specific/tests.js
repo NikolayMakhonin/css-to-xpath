@@ -50,7 +50,7 @@ const testIntern = singleCall(async (appConfigType, options = {}) => {
 		await builds.build(appConfigType)
 	}
 	await run(
-		'mocha --config env/intern/.mochars.js ./env/intern/configs/export/mocha.js --bail',
+		'mocha --config env/intern/.mocharc.js ./env/intern/configs/export/mocha.js --bail',
 		{env: {APP_CONFIG: appConfigType}}
 	)
 })

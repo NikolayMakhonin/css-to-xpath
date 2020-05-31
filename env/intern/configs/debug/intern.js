@@ -1,4 +1,4 @@
-import {serverIp, sapperPort as staticPort} from '../constants'
+import {serverIp, staticPort} from '../constants'
 
 export default {
 	environments: [

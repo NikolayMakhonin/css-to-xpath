@@ -1,6 +1,6 @@
 {
-	"name": "css-to-xpath",
-	"version": "0.0.1",
+	"name": "@flemist/css-to-xpath",
+	"version": "0.0.4",
 	"description": "Convert CSS selector to XPath",
 	"author": {
 		"name": "Nickolay Makhonin",
@@ -29,15 +29,15 @@
 	"files": [
 		"dist/**"
 	],
-	"main": "dist/js/main/browser/index.js",
-	"jsnext:main": "dist/mjs/main/browser/index.js",
-	"module": "dist/mjs/main/browser/index.js",
+	"types": "dist/types/browser/index.d.ts",
+	"main": "dist/dev/js/main/browser/index.js",
+	"jsnext:main": "dist/dev/mjs/main/browser/index.js",
+	"module": "dist/dev/mjs/main/browser/index.js",
 	"engines": {
 		"node": ">= 8.6.0"
 	},
 	"scripts": {
 		"precommit": "npm run build-test:ci",
-		"prepare": "npm run build:dev",
 		"prepublishOnly": "npm run test:dev",
 		"ci": "npm run build-test:ci && ncat \"tmp/*/coverage/all/lcov/**/lcov.info\" --banner \"\" | coveralls",
 		"lint": "node ./env/scripts/run.js \"require('./env/scripts/common').lint().stopOnError()\"",
@@ -157,6 +157,6 @@
 		"tslint-no-circular-imports": "^0.7.0",
 		"tslint-sonarts": "^1.9.0",
 		"typescript": "^3.6.3",
-		"webrain": "^1.0.1-a"
+		"webrain": "^1.0.3-a"
 	}
 }

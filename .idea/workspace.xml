@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52e1996-07d3-4492-b0b2-6fba29f4b076" name="Default Changelist" comment="" />
+    <list default="true" id="d52e1996-07d3-4492-b0b2-6fba29f4b076" name="Default Changelist" comment="Set package name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,9 +122,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
-    <property name="ts.external.directory.path" value="L:\Work\_GIT\GitHub\NodeJs\apps\app-template\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="L:\Work\_GIT\GitHub\NodeJs\modules\css-to-xpath\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.Test All">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\Work\_GIT\GitHub\NodeJs\modules\css-to-xpath\_trash" />
+      <recent name="L:\Work\_GIT\GitHub\NodeJs\modules\css-to-xpath\src\main\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Test Dev">
     <configuration default="true" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/env/karma/configs/dev.js" />
       <karma-package-dir value="$PROJECT_DIR$/node_modules/karma" />
@@ -208,7 +216,8 @@
       <updated>1590817117447</updated>
       <workItem from="1590817118817" duration="21000" />
       <workItem from="1590827208682" duration="102000" />
-      <workItem from="1590827867235" duration="1533000" />
+      <workItem from="1590827867235" duration="3263000" />
+      <workItem from="1590835611556" duration="2292000" />
     </task>
     <task id="LOCAL-00003" summary="Fill module info">
       <created>1590829373375</created>
@@ -217,7 +226,56 @@
       <option name="project" value="LOCAL" />
       <updated>1590829373375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fill module info">
+      <created>1590829445570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590829445570</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix ReadMe">
+      <created>1590829568811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590829568811</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added the main code">
+      <created>1590830100103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830100103</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added index file">
+      <created>1590830224280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830224280</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix lint">
+      <created>1590830394493</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830394493</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added types">
+      <created>1590857813180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590857813180</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v0.0.3">
+      <created>1590860184012</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590860184012</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,17 +354,23 @@
     <MESSAGE value="Remove pug" />
     <MESSAGE value="Merge fix" />
     <MESSAGE value="Fill module info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fill module info" />
+    <MESSAGE value="Fix ReadMe" />
+    <MESSAGE value="Added the main code" />
+    <MESSAGE value="Added index file" />
+    <MESSAGE value="Fix lint" />
+    <MESSAGE value="Added types" />
+    <MESSAGE value="v0.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.0.3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="409" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590574332632">
       <screen x="0" y="0" width="1920" height="882" />
     </state>
     <state x="409" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.882@0.0.1920.882" timestamp="1590574332632" />
-    <state x="0" y="0" width="1920" height="882" key="CommitChangelistDialog2" timestamp="1590829372320">
+    <state x="0" y="0" width="1920" height="882" key="CommitChangelistDialog2" timestamp="1590860182321">
       <screen x="0" y="0" width="1920" height="882" />
     </state>
-    <state x="0" y="0" width="1920" height="882" key="CommitChangelistDialog2/0.0.1920.882@0.0.1920.882" timestamp="1590829372320" />
+    <state x="0" y="0" width="1920" height="882" key="CommitChangelistDialog2/0.0.1920.882@0.0.1920.882" timestamp="1590860182321" />
     <state x="0" y="2" width="1920" height="881" key="DiffContextDialog" timestamp="1590829331179">
       <screen x="0" y="0" width="1920" height="882" />
     </state>
@@ -315,6 +379,22 @@
       <screen x="0" y="0" width="1920" height="882" />
     </state>
     <state x="686" y="134" key="FileChooserDialogImpl/0.0.1920.882@0.0.1920.882" timestamp="1590574197995" />
+    <state width="1892" height="263" key="GridCell.Tab.0.bottom" timestamp="1590832512336">
+      <screen x="0" y="0" width="1920" height="882" />
+    </state>
+    <state width="1892" height="263" key="GridCell.Tab.0.bottom/0.0.1920.882@0.0.1920.882" timestamp="1590832512336" />
+    <state width="1892" height="263" key="GridCell.Tab.0.center" timestamp="1590832512335">
+      <screen x="0" y="0" width="1920" height="882" />
+    </state>
+    <state width="1892" height="263" key="GridCell.Tab.0.center/0.0.1920.882@0.0.1920.882" timestamp="1590832512335" />
+    <state width="1892" height="263" key="GridCell.Tab.0.left" timestamp="1590832512335">
+      <screen x="0" y="0" width="1920" height="882" />
+    </state>
+    <state width="1892" height="263" key="GridCell.Tab.0.left/0.0.1920.882@0.0.1920.882" timestamp="1590832512335" />
+    <state width="1892" height="263" key="GridCell.Tab.0.right" timestamp="1590832512336">
+      <screen x="0" y="0" width="1920" height="882" />
+    </state>
+    <state width="1892" height="263" key="GridCell.Tab.0.right/0.0.1920.882@0.0.1920.882" timestamp="1590832512336" />
     <state x="1" y="1" width="1915" height="880" key="MergeDialog" timestamp="1590646632693">
       <screen x="0" y="0" width="1920" height="882" />
     </state>
@@ -327,10 +407,10 @@
       <screen x="0" y="0" width="1920" height="882" />
     </state>
     <state x="654" y="68" key="RollbackChangesDialog/0.0.1920.882@0.0.1920.882" timestamp="1590572876005" />
-    <state x="0" y="1" width="1920" height="879" key="find.popup" timestamp="1590828931771">
+    <state x="0" y="1" width="1920" height="879" key="find.popup" timestamp="1590857570451">
       <screen x="0" y="0" width="1920" height="882" />
     </state>
-    <state x="0" y="1" width="1920" height="879" key="find.popup/0.0.1920.882@0.0.1920.882" timestamp="1590828931771" />
+    <state x="0" y="1" width="1920" height="879" key="find.popup/0.0.1920.882@0.0.1920.882" timestamp="1590857570451" />
     <state x="688" y="81" key="git4idea.branch.GitSmartOperationDialog" timestamp="1590572868876">
       <screen x="0" y="0" width="1920" height="882" />
     </state>

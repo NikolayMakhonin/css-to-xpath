@@ -1,6 +1,10 @@
-const {deletePaths} = require('../../common/helpers')
+const {deletePaths, reCreateDir} = require('../../common/helpers')
 const {run, singleCall} = require('../helpers/helpers')
 
+const buildTypes = singleCall(async () => {
+	await reCreateDir('dist/types')
+	await run('tsc --outDir dist/types --declaration')
+})
 const buildPolyfill = singleCall(() => run(
 	'node env/libs/polyfill/build.js',
 	{env: {APP_CONFIG: 'dev'}}
@@ -9,10 +13,11 @@ const buildLibs = singleCall(() => Promise.all([
 	buildPolyfill(),
 ]))
 const clean = singleCall(() => deletePaths('{*.log,__sapper__}'))
-const build = singleCall(async () => {
-	// await clean()
-	await buildLibs()
-})
+const build = singleCall(() => Promise.all([
+	// clean(),
+	buildTypes(),
+	buildLibs(),
+]))
 
 const lintEs = singleCall(async () => {
 	await run('eslint --plugin markdown --ext js,md .')
