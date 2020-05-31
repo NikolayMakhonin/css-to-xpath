@@ -1,6 +1,6 @@
 {
 	"name": "@flemist/css-to-xpath",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Convert CSS selector to XPath",
 	"author": {
 		"name": "Nickolay Makhonin",
