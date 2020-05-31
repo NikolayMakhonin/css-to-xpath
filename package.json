@@ -30,9 +30,9 @@
 		"dist/**"
 	],
 	"types": "dist/types/browser/index.d.ts",
-	"main": "dist/js/main/browser/index.js",
-	"jsnext:main": "dist/mjs/main/browser/index.js",
-	"module": "dist/mjs/main/browser/index.js",
+	"main": "dist/dev/js/main/browser/index.js",
+	"jsnext:main": "dist/dev/mjs/main/browser/index.js",
+	"module": "dist/dev/mjs/main/browser/index.js",
 	"engines": {
 		"node": ">= 8.6.0"
 	},
